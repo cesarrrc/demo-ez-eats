@@ -1,16 +1,35 @@
-*{
+body {
   background-color: black;
   color: antiquewhite;
+  margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cinzel", Cursive;
+  /* font-size: 44px; */
+}
+
+p,
+a,
+ul,
+li {
+  font-family: "Fauna One", Serif;
+  /* font-size: 14px; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .App {
   text-align: center;
 }
-
-
-
-
 
 .App-logo {
   height: 40vmin;

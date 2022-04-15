@@ -4,7 +4,6 @@ import classes from "./Home.module.css";
 
 export default function Home() {
   return (
-    <div className={classes.home_container}>
       <div className={classes.grid_container}>
         <ButtonNavigation
           content="Trailers/Food Tents"
@@ -27,6 +26,5 @@ export default function Home() {
           path="/mealprep"
         />
       </div>
-    </div>
-  );
+  )
 }
