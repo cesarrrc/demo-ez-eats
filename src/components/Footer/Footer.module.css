@@ -28,3 +28,13 @@ nav .icon {
   margin-right: 20px;
   align-items: center;
 }
+
+@media (max-width: 800px) {
+    .grid_container p {
+        font-size: 8px;
+    }
+    
+    nav .icon { 
+        font-size: 30px;
+    }
+}
