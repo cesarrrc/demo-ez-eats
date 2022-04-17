@@ -18,7 +18,7 @@ export default function Footer() {
           <FacebookIcon className={classes.icon} />
           <AlternateEmailIcon className={classes.icon} />
         </nav>
-        <p>© by Cesar Cisneros</p>
+        <p>© 2022 by Cesar Cisneros</p>
       </div>
     </footer>
   );
